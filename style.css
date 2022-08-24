@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(heart.jpg);
+    
+    
+}
+
+.calc{
+    padding:5px 5px;
+    text-align: center;
+    align-items: center;
+    width: 60%;
+    height:450px;
+    margin: 100px auto;
+    border-radius: 12px;
+    border-style: inset;
+    border-width: 12px;
+    border-color: rgb(231, 66, 44);
+    background-color: hsl(0, 0%, 0%);
+    
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #button{
+    background-color: #f8bb11; /* Green */
+    border-radius: 12px;
+    border-style: inset;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  #button:hover {
+    background-color: #da3706;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+  }
+  label{
+      font-size: larger;
+      font-family:  'Sacramento', cursive;
+      font-weight: bolder;
+      color:rgb(243, 216, 94);
+
+  }
+   
+    #win{
+      font-size: larger;
+      font-weight: bolder;
+      background-color: azure;
+    }
+
+    span{
+      font-size: larger;
+      font-family:  'Sacramento', cursive;
+      font-weight: bolder;
+      color:rgb(243, 216, 94);
+
+    }
+    
+    

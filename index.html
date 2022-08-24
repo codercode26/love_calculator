@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>love-calculator</title>
+    <link rel="icon" href="hearts.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet"> 
+    
+</head>
+<body id="body"> 
+    <div class="love-calculator">
+        <div class="calc" id="cal">
+            <form onsubmit="calc(); return false">
+                <label for="fname">Your Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Your ❤️  Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your...name">  
+                <input id="button" type="submit">
+                <br>
+                <span id="text"></span>
+
+              </form>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
